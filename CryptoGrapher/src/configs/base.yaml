@@ -1,0 +1,32 @@
+# CryptoGrapher — base configuration.
+
+seed: 123456789
+
+data:
+  data_path: ../dataset
+  market_name: CRYPTO_1D_ALL
+  lookback: 30
+  steps: 1
+  valid_index: 599
+  test_index: 799
+
+model:
+  d_feat: 5
+  hidden_size: 64
+  num_layers: 2              # LSTM layers
+  dropout: 0.0
+  num_graph_layer: 2         # GAT layers
+  correlation_threshold: 0.9 # τ for graph construction
+
+train:
+  epochs: 100
+  learning_rate: 0.00025
+  weight_decay: 0.0
+  loss: mse                  # mse | rank
+  rank_alpha: 0.1            # weight for pairwise-rank loss (if loss=rank)
+  scheduler: plateau         # plateau | none
+  plateau_factor: 0.5
+  plateau_patience: 10
+  validate_every: 5
+
+device: auto                 # auto | cuda | cuda:0 | mps | cpu
