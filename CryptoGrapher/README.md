@@ -4,8 +4,6 @@
 
 We are the first to redefine pure-price cryptocurrency prediction as a graph learning problem, and we introduce a simple yet effective model, called CryptoGrapher, which utilizes graph attention layers to aggregate cross-asset information. 
 
-On real-world cryptocurrency data, CryptoGrapher achieves state-of-the-art forecasting accuracy and investment performance compared to prior approaches. We hope these findings open a new research direction for pure-price cryptocurrency prediction and inspire further graph-based exploration in this domain. 
-
 ## Architecture
 
 ![CryptoGrapher Pipeline](figures/Overview_CryptoGrapher.png)
@@ -14,6 +12,8 @@ On real-world cryptocurrency data, CryptoGrapher achieves state-of-the-art forec
 
 ![COMPARISON OF DIFFERENT METHODS](figures/Overall_Comparison.png)
 
+
+On real-world cryptocurrency data, CryptoGrapher achieves state-of-the-art forecasting accuracy and investment performance compared to prior approaches. We hope these findings open a new research direction for pure-price cryptocurrency prediction and inspire further graph-based exploration in this domain. 
 
 # Getting Started
 
