@@ -2,7 +2,7 @@
 
 **CryptoGrapher: A Simple Yet Strong Graph-Based Architecture for Cryptocurrency Forecasting**.
 
-We are the first to redefine pure-price cryptocurrency prediction as a graph learning problem, and we introduce a simple yet effective model, called CryptoGrapher, which utilizes graph attention layers to aggregate cross-asset information. 
+We recast pure-price cryptocurrency prediction as a graph learning problem, and we introduce a simple yet effective model, called CryptoGrapher, which utilizes graph attention layers to aggregate cross-asset information. 
 
 ## Architecture
 
